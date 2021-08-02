@@ -71,7 +71,7 @@ Both of these options require work from the CGA team but not much work on our pa
 
 In the current CGA app, participant decisions, e.g. chosen options, actions, evaluations, are recorded as part of an event stream during the forum experience. Bamboo records these decisions outside of the forum experience and CGA has not yet decided how they will be reconciled with the the event stream paradigm.
 
-### The solution
+### Solution
 
 NewAperio will store user decisions as part of the Bamboo application. When a complete set of decisions has been recorded, Bamboo will send a webhook event to CGA with information about how to retrieve the records. This decouples Bamboo’s implementation from the CGA app, leaving the CGA team to design their solution without restrictions.
 
