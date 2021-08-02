@@ -40,7 +40,7 @@ NewAperio will build a proxy server application that will connect directly to CG
 
 We discussed other options with the CGA team that would involve them making non-neglible changes to the exising legacy codebase:
 
-- Experimenting with [Lift's REST helpers][lift-rest]
+- Experimenting with [Lift’s REST helpers][lift-rest]
 - Building a bespoke [JSON:API] service
 
 After evaluating the tradeoffs, both teams decided that the solution we chose would be best--it ensures we have access to the data Bamboo needs and requires no modification of the legacy app.
@@ -58,7 +58,7 @@ Some of the content included in the [prototype designs] are not available in the
 
 After consulting with our senior designer, we feel like we can build Bamboo without this content and not unduly compromise the user experience.
 
-This content, though not essential, would be nice to have and we've identified a couple of potential pathways for getting access to it:
+This content, though not essential, would be nice to have and we’ve identified a couple of potential pathways for getting access to it:
 
 - The CGA team could add fields to the legacy app to allow issue guide authors to specify an image and category
 - The [EVE website][eve], a WordPress app, has the content we need and there are plugins for WordPress that can provide a drop-in web API. The difficult part of this approach, however, is linking up the WordPress data with the correct CGA issue guides.
@@ -73,7 +73,7 @@ In the current CGA app, participant decisions, e.g. chosen options, actions, eva
 
 ### The solution
 
-NewAperio will store user decisions as part of the Bamboo application. When a complete set of decisions has been recorded, Bamboo will send a webhook event to CGA with information about how to retrieve the records. This decouples Bamboo's implementation from the CGA app, leaving the CGA team to design their solution without restrictions.
+NewAperio will store user decisions as part of the Bamboo application. When a complete set of decisions has been recorded, Bamboo will send a webhook event to CGA with information about how to retrieve the records. This decouples Bamboo’s implementation from the CGA app, leaving the CGA team to design their solution without restrictions.
 
 ### Participant accounts
 
