@@ -81,7 +81,7 @@ NewAperio will store user decisions as part of the Bamboo application. When a co
 
 Persistent user accounts are not part of the existing CGA application; that is to say, a new user is generated per participant, per forum and does not exist outside of that context. CGA is working on implementing peristent accounts but there is no planned solution for ingesting external account data.
 
-#### The solution
+#### Solution
 
 Bamboo will implement its own user authentication system, which will allow users to sign up for multiple forums without having to log in each time. When webhook events are sent to CGA, indentifying user information will be included. Like the decisions themselves, this somewhat decouple the two apps and allows CGA to build a solution without inteference or restriction.
 
