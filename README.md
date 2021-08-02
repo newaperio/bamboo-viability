@@ -23,7 +23,7 @@ These are the problem areas that we identified, and are described in further det
 3. Out-of-band decisions
 4. Participant accounts
 
-### Data access
+### Data Access
 
 #### The problem
 
