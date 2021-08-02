@@ -47,7 +47,7 @@ After evaluating the tradeoffs, both teams decided that the solution we chose wo
 
 ### Design Components
 
-#### The problem
+#### Problem
 
 Some of the content included in the [prototype designs] are not available in the CGA application. This includes:
 
