@@ -67,7 +67,7 @@ Both of these options require work from the CGA team but not much work on our pa
 
 ### Out-of-band Decisions
 
-#### The problem
+#### Problem
 
 In the current CGA app, participant decisions, e.g. chosen options, actions, evaluations, are recorded as part of an event stream during the forum experience. Bamboo records these decisions outside of the forum experience and CGA has not yet decided how they will be reconciled with the the event stream paradigm.
 
