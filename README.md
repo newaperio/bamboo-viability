@@ -14,7 +14,7 @@
 
 NewAperio has completed a viability assessment for the Bamboo I project (hereafter referred to as _Bamboo_) to ensure that the necessary technology requirements can be met. After a deep dive into the existing [Common Ground for Action (CGA)][cga] application and data model, and collaboration with the [Every Voice Engaged (EVE)][eve] technology team, we’ve uncovered a well-defined problem space and have come up with solutions that will allow the project to move forward.
 
-## Problem areas
+## Problem Areas
 
 These are the problem areas that we identified, and are described in further detail later in the document:
 
