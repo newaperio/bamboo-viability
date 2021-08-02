@@ -43,7 +43,7 @@ We discussed other options with the CGA team that would involve them making non-
 - Experimenting with [Lift’s REST helpers][lift-rest]
 - Building a bespoke [JSON:API] service
 
-After evaluating the tradeoffs, both teams decided that the solution we chose would be best--it ensures we have access to the data Bamboo needs and requires no modification of the legacy app.
+After evaluating the tradeoffs, both teams decided that the solution we chose would be best — it ensures we have access to the data Bamboo needs and requires no modification of the legacy app.
 
 ### Design components
 
