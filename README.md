@@ -34,7 +34,7 @@ Data essential to the Bamboo experience is tied into the CGA environment and not
 - Actions
 - Drawbacks
 
-#### The solution
+#### Solution
 
 NewAperio will build a proxy server application that will connect directly to CGA’s database instance via a read-only connection and expose the required data over a well-defined GraphQL web API.
 
