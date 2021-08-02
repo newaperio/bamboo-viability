@@ -63,7 +63,7 @@ This content, though not essential, would be nice to have and we’ve identified
 - The CGA team could add fields to the legacy app to allow issue guide authors to specify an image and category
 - The [EVE website][eve], a WordPress app, has the content we need and there are plugins for WordPress that can provide a drop-in web API. The difficult part of this approach, however, is linking up the WordPress data with the correct CGA issue guides.
 
-As both of these options require work from the CGA team, and not much work on our part, we feel that ...
+Both of these options require work from the CGA team but not much work on our part, so we will defer to CGA on this decision.
 
 ### Out-of-band decisions
 
