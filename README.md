@@ -54,7 +54,7 @@ Some of the content included in the [prototype designs] are not available in the
 - Issue guide cover images
 - Issue guide categories
 
-#### The solution
+#### Solution
 
 After consulting with our senior designer, we feel like we can build Bamboo without this content, but it will have some impact on user experience. Without issue guide thumbnail images, the main screen of the app will be text-heavy. Without categories, quickly skimming to understand what topic an issue guide covers may be more challenging.
 
