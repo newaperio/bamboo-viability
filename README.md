@@ -25,7 +25,7 @@ These are the problem areas that we identified, and are described in further det
 
 ### Data Access
 
-#### The problem
+#### Problem
 
 Data essential to the Bamboo experience is tied into the CGA environment and not exposed via a web API or other such mechanism. This data includes things like:
 
