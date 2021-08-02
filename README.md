@@ -79,7 +79,7 @@ NewAperio will store user decisions as part of the Bamboo application. When a co
 
 #### Problem
 
-Persistent user accounts are not part of the existing CGA application, that is to say, a new user is generated per participant, per forum and does not exist out of that context. CGA is working on implementing peristent accounts but there is no planned solution for ingesting external account data.
+Persistent user accounts are not part of the existing CGA application; that is to say, a new user is generated per participant, per forum and does not exist outside of that context. CGA is working on implementing peristent accounts but there is no planned solution for ingesting external account data.
 
 #### The solution
 
