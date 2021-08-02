@@ -45,7 +45,7 @@ We discussed other options with the CGA team that would involve them making non-
 
 After evaluating the tradeoffs, both teams decided that the solution we chose would be best — it ensures we have access to the data Bamboo needs and requires no modification of the legacy app.
 
-### Design components
+### Design Components
 
 #### The problem
 
