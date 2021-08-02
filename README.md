@@ -83,7 +83,7 @@ Persistent user accounts are not part of the existing CGA application; that is t
 
 #### Solution
 
-Bamboo will implement its own user authentication system, which will allow users to sign up for multiple forums without having to log in each time. When webhook events are sent to CGA, indentifying user information will be included. Like the decisions themselves, this somewhat decouple the two apps and allows CGA to build a solution without inteference or restriction.
+Bamboo will implement its own user authentication system, which will allow users to sign up for multiple forums without having to log in each time. When webhook events are sent to CGA, indentifying user information will be included. Like the decisions themselves, this somewhat decouples the two apps and allows CGA to build a solution without inteference or restriction.
 
 ## Architecture diagram
 
