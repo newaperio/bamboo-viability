@@ -36,7 +36,7 @@ Data essential to the Bamboo experience is tied into the CGA environment and not
 
 #### Solution
 
-NewAperio will build a proxy server application that will connect directly to CGA’s database instance via a read-only connection and expose the required data over a well-defined GraphQL web API.
+NewAperio will build a proxy server application that will connect directly to CGA’s database instance via a read-only connection and expose the required data over a well-defined GraphQL web API. This application will be delivered to the CGA team as a container that can be deployed into their Kubernetes cluster, minimizing the devops work around deployment.
 
 We discussed other options with the CGA team that would involve them making non-neglible changes to the exising legacy codebase:
 
@@ -73,7 +73,9 @@ In the current CGA app, participant decisions, e.g. chosen options, actions, eva
 
 ### Solution
 
-NewAperio will store user decisions as part of the Bamboo application. When a complete set of decisions has been recorded, Bamboo will send a webhook event to CGA with information about how to retrieve the records. This decouples Bamboo’s implementation from the CGA app, leaving the CGA team to design their solution without restrictions.
+NewAperio will store user decisions as part of the Bamboo application. When a complete set of decisions has been recorded, Bamboo will make the information available to CGA via a webhook event, Amazon SQS queue, or some similar mechanism.
+
+This architecture decouples Bamboo’s data recording implementation from the CGA app, leaving the CGA team to design their solution without restrictions.
 
 ### Participant accounts
 
