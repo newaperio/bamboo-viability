@@ -65,7 +65,7 @@ This content, though not essential, would be nice to have and we’ve identified
 
 Both of these options require work from the CGA team but not much work on our part, so we will defer to CGA on this decision.
 
-### Out-of-band decisions
+### Out-of-band Decisions
 
 #### The problem
 
