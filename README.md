@@ -38,7 +38,7 @@ Data essential to the Bamboo experience is tied into the CGA environment and not
 
 NewAperio will build a proxy server application that will connect directly to CGA’s database instance via a read-only connection and expose the required data over a well-defined GraphQL web API. This application will be delivered to the CGA team as a container that can be deployed into their Kubernetes cluster, minimizing the devops work around deployment.
 
-We discussed other options with the CGA team that would involve them making non-neglible changes to the exising legacy codebase:
+We discussed other options with the CGA team that would involve them making non-negligible changes to the existing legacy codebase:
 
 - Experimenting with [Lift’s REST helpers][lift-rest]
 - Building a bespoke [JSON:API] service
@@ -69,7 +69,7 @@ Both of these options require work from the CGA team but not much work on our pa
 
 #### Problem
 
-In the current CGA app, participant decisions, e.g. chosen options, actions, evaluations, are recorded as part of an event stream during the forum experience. Bamboo records these decisions outside of the forum experience and CGA has not yet decided how they will be reconciled with the the event stream paradigm.
+In the current CGA app, participant decisions, e.g. chosen options, actions, evaluations, are recorded as part of an event stream during the forum experience. Bamboo records these decisions outside of the forum experience and CGA has not yet decided how they will be reconciled with the event stream paradigm.
 
 ### Solution
 
@@ -81,11 +81,11 @@ This architecture decouples Bamboo’s data recording implementation from the CG
 
 #### Problem
 
-Persistent user accounts are not part of the existing CGA application; that is to say, a new user is generated per participant, per forum and does not exist outside of that context. CGA is working on implementing peristent accounts but there is no planned solution for ingesting external account data.
+Persistent user accounts are not part of the existing CGA application; that is to say, a new user is generated per participant, per forum and does not exist outside of that context. CGA is working on implementing persistent accounts but there is no planned solution for ingesting external account data.
 
 #### Solution
 
-Bamboo will implement its own user authentication system, which will allow users to sign up for multiple forums without having to log in each time. When webhook events are sent to CGA, indentifying user information will be included. Like the decisions themselves, this somewhat decouples the two apps and allows CGA to build a solution without inteference or restriction.
+Bamboo will implement its own user authentication system, which will allow users to sign up for multiple forums without having to log in each time. When webhook events are sent to CGA, identifying user information will be included. Like the decisions themselves, this somewhat decouples the two apps and allows CGA to build a solution without interference or restriction.
 
 ## Architecture Diagram
 
