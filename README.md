@@ -95,7 +95,7 @@ Below is a diagram describing key parts of the Bamboo architecture:
 - Web front end
 - Read-only database connection
 - GraphQL API
-- Webhook events
+- Participant data transmission
 
 <p align="center"><img src="architecture.png" width="80%"></p>
 
