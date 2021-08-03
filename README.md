@@ -101,11 +101,14 @@ Below is a diagram describing key parts of the Bamboo architecture:
 
 ## Prototype
 
-As part of our viability assessment we created a [prototype Elixir/Phoenix application][prototype-app] that connects to a local CGA database and exposes a GraphQL API. The prototype works well and gives us confidence in the technical decisions we made throughout our assessment.
+As part of our viability assessment we created a [prototype Elixir/Phoenix application][phoenix-app] that connects to a local CGA database and exposes a GraphQL API. The prototype works well and gives us confidence in the technical decisions we made throughout our assessment.
+
+While we strongly recommend the Phoenix framework for all greenfield web projects, we have also included a [Python/Django prototype][django-app].
 
 [cga]: https://findcommonground.org/
 [eve]: https://www.everyvoiceengaged.org/
 [lift-rest]: https://simply.liftweb.net/index-Chapter-5.html#toc-Chapter-5
 [json:api]: https://jsonapi.org/
 [prototype designs]: https://projects.invisionapp.com/d/main#/projects/prototypes/21166485
-[prototype-app]: prototype
+[phoenix-app]: prototypes/phoenix
+[django-app]: prototypes/django
